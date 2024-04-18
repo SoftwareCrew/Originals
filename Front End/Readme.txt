@@ -4,11 +4,11 @@ To initiate the project in React, execute the following command: `npx create-rea
 
 Our application consists of six distinct components, each developed by a separate team member:
 
-1. **Login Component**
-2. **Registration Component**
-3. **Component 3**
-4. **Component 4**
-5. **Component 5**
-6. **Component 6**
+1. **Login Component - Akka**
+2. **Registration Component -  Srujana**
+3. **Tours - Yuva**
+4. **Motels - Anusha**
+5. **Place To Visit - Keshav**
+6. **Restareants - Harish**
 
 Each component serves a specific function within our Tourism Help Center, contributing to the overall goal of simplifying and enhancing the travel experience for users.
