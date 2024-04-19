@@ -9,6 +9,6 @@ Our application consists of six distinct components, each developed by a separat
 3. **Tours - Yuva**
 4. **Motels - Anusha**
 5. **Place To Visit - Keshav**
-6. **Restareants - Harish**
+6. **Restaurants - Harish**
 
 Each component serves a specific function within our Tourism Help Center, contributing to the overall goal of simplifying and enhancing the travel experience for users.
