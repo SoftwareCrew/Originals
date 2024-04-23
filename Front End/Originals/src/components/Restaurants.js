@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
+import './Restaurants.css';
 
 function Restaurants() {
     // State to hold form inputs and search results
