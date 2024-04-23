@@ -1,0 +1,68 @@
+/* Styles for the RestaurantSearch component */
+
+/* Container styling */
+.restaurant-search {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #f9f9f9;
+}
+
+/* Form styling */
+.restaurant-search form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Input field styling */
+.restaurant-search input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Button styling */
+.restaurant-search button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.restaurant-search button:hover {
+    background-color: #0056b3;
+}
+
+/* Results list styling */
+.restaurant-search ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.restaurant-search li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.restaurant-search li:last-child {
+    border-bottom: none;
+}
+
+.restaurant-search h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.restaurant-search p {
+    margin: 5px 0;
+    color: #555;
+}
