@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Link, Route, Routes } from 'react-router-dom';
 import Tours from './components/Tours';
@@ -5,24 +6,23 @@ import Motels from './components/Motels';
 import PlacesToVisit from './components/PlacesToVisit';
 import Restaurants from './components/Restaurants';
 import SignIn from './components/SignIn';
-import SignUp from './components/SignUp'; 
+import SignUp from './components/SignUp';
+import Slideshow from './components/Slideshow'; 
 
-
-const backgroundImageUrl = 'https://img1.wsimg.com/isteam/ip/4056b383-c074-4d1c-a99e-3e77604927ca/statue-n-skyline_flag.jpg'; // Adjust the path to your image
+const backgroundImageUrl = 'https://img1.wsimg.com/isteam/ip/4056b383-c074-4d1c-a99e-3e77604927ca/statue-n-skyline_flag.jpg';
 
 function App() {
   return (
     <Router>
       <div className="app">
         <header className="header">
-        <div className="right">
-          <Link to="/signin" className="button">Sign In</Link>
-          <Link to="/signup" className="button">Register</Link>
+          <div className="right">
+            <Link to="/signin" className="button">Sign In</Link>
+            <Link to="/signup" className="button">Register</Link>
           </div>
         </header>
 
-        <div className="content" style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
-        </div>
+        <Slideshow /> {/* Insert the slideshow component here */}
 
         <footer className="footer">
           <Link to="/tours" className="button">Tours</Link>
