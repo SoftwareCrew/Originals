@@ -2,7 +2,10 @@ import React, { useState, useEffect } from 'react';
 import './Slideshow.css'
 
 const images = [
-
+  'https://pixabay.com/photos/landscape-roman-bridge-river-8487906/',
+  'https://pixabay.com/photos/landscape-roman-bridge-river-8487906/',
+  'https://pixabay.com/photos/landscape-roman-bridge-river-8487906/',
+  'https://pixabay.com/photos/landscape-roman-bridge-river-8487906/',
 ];
 
 const Slideshow = () => {
