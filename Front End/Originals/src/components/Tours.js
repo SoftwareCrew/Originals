@@ -1,12 +1,30 @@
-import React from 'react';
+import React, { useState } from 'react';
+import './SearchBar.css'; // Import CSS file for styles
 
-function Tours() {
-    return (
-        <div>
-            {/* Sign-up form */}
-            <h1>Tours</h1>
-        </div>
-    );
-}
+const SearchBar = ({ onSearch }) => {
+  const [searchTerm, setSearchTerm] = useState('');
 
-export default Tours;
+  const handleChange = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    onSearch(searchTerm);
+  };
+
+  return (
+    <form className="search-form" onSubmit={handleSubmit}>
+      <input
+        className="search-input"
+        type="text"
+        placeholder="Search..."
+        value={searchTerm}
+        onChange={handleChange}
+      />
+      <button className="search-button" type="submit">Search</button>
+    </form>
+  );
+};
+
+export default SearchBar;
