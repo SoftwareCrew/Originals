@@ -4,10 +4,8 @@
     "\\Restaurants",
     "\\Restaurants\\Controllers",
     "\\Restaurants\\Data",
-    "\\Restaurants\\Models",
-    "\\SignUpAPI\\Data",
-    "\\SignUpAPI\\Models"
+    "\\Restaurants\\Models"
   ],
-  "SelectedNode": "\\Restaurants\\appsettings.json",
+  "SelectedNode": "\\Restaurants",
   "PreviewInSolutionExplorer": false
 }
